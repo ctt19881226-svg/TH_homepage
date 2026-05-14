@@ -220,7 +220,7 @@ export default function App() {
       <motion.section 
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true, margin: "-100px" }}
+        viewport={{ once: false, margin: "-100px" }}
         transition={{ duration: 0.6 }}
         className="py-24 px-6 max-w-7xl mx-auto relative z-10 mt-12 mb-12"
       >
@@ -234,7 +234,7 @@ export default function App() {
               key={i}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: "-100px" }}
+              viewport={{ once: false, margin: "-100px" }}
               transition={{ delay: i * 0.1 }}
               className="group p-8 rounded-2xl transition-all duration-500 relative overflow-hidden
                 bg-white border border-black/5 shadow-[0_4px_20px_rgb(0,0,0,0.03)] hover:shadow-[0_8px_30px_rgb(0,0,0,0.08)]
@@ -268,7 +268,7 @@ export default function App() {
       <motion.section 
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true, margin: "-100px" }}
+        viewport={{ once: false, margin: "-100px" }}
         transition={{ duration: 0.6 }}
         className="py-24 px-6 max-w-7xl mx-auto relative z-10 border-t border-black/5 dark:border-white/10"
       >
@@ -283,7 +283,7 @@ export default function App() {
           <motion.div 
             initial={{ opacity: 0, x: -20 }}
             whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true, margin: "-100px" }}
+            viewport={{ once: false, margin: "-100px" }}
             className="flex flex-col gap-4"
           >
             <div>
@@ -327,7 +327,7 @@ export default function App() {
           <motion.div 
             initial={{ opacity: 0, x: 20 }}
             whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true, margin: "-100px" }}
+            viewport={{ once: false, margin: "-100px" }}
             className="flex flex-col gap-4"
           >
             <div>
