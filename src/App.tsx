@@ -137,7 +137,7 @@ export default function App() {
             </span>
           </h1>
           <p className="text-xl md:text-2xl text-[#4B5563] dark:text-[#9CA3AF] mb-12 max-w-2xl mx-auto text-balance font-medium">
-            No hidden downgrades. <br /> No unofficial APIs. Full transparency.
+            No hidden routing. No downgrade. <br /> Trusted providers. Full transparency.
           </p>
         </motion.div>
 
