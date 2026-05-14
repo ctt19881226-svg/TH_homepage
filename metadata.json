@@ -1,0 +1,8 @@
+{
+  "name": "Token Harbor",
+  "description": "Developer-first AI model router with transparent pricing, full privacy, and a unified API.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
