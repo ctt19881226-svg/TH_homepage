@@ -118,26 +118,26 @@ export default function App() {
         </motion.div>
 
         {/* Hero Text */}
-        <motion.div
+        <motion.div 
            initial={{ opacity: 0, y: 20 }}
            animate={{ opacity: 1, y: 0 }}
            transition={{ delay: 0.1 }}
            className="text-center w-full max-w-4xl"
         >
           <h1 className="text-5xl md:text-7xl lg:text-[5.5rem] font-bold tracking-tight mb-8">
-            <span className="text-[#111827] dark:text-[#F9FAFB]">Trusted Access to</span>
+            <span className="text-[#111827] dark:text-[#F9FAFB]">Unified API.</span>
             <br />
             <span className="relative inline-block pb-2">
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-orange-400 via-pink-500 to-purple-500 dark:from-zinc-300 dark:via-white dark:to-zinc-400 leading-normal relative z-10">
-                Frontier AI
+                Honest. Reliable.
               </span>
               <span className="absolute inset-0 bg-clip-text text-transparent bg-gradient-to-r from-transparent via-white to-transparent dark:blur-sm opacity-50 z-0 select-none hidden dark:block">
-                Frontier AI
+                Honest. Reliable.
               </span>
             </span>
           </h1>
           <p className="text-xl md:text-2xl text-[#4B5563] dark:text-[#9CA3AF] mb-12 max-w-2xl mx-auto text-balance font-medium">
-            No hidden routing. No downgrade. <br /> Trusted providers. Full transparency.
+            One API for the world’s leading AI models.
           </p>
         </motion.div>
 
@@ -184,10 +184,16 @@ export default function App() {
           transition={{ delay: 0.4 }}
           className="flex flex-wrap items-center justify-center gap-4 mb-20"
         >
-          <button className="flex items-center gap-2 px-8 py-4 rounded-full font-semibold transition-all
-            bg-[#111827] text-white hover:bg-black hover:shadow-lg
+          <button className="group relative flex items-center justify-center px-8 py-4 rounded-full font-semibold transition-all overflow-hidden
+            bg-[#111827] text-white hover:bg-black hover:shadow-[0_8px_30px_rgb(0,0,0,0.12)]
             dark:bg-white dark:text-black dark:hover:bg-neutral-200 dark:hover:shadow-[0_0_20px_rgba(255,255,255,0.2)]">
-            Get API Key
+            <span className="absolute inset-0 flex items-center justify-center transition-transform duration-300 group-hover:-translate-y-full">
+              Start for Free
+            </span>
+            <span className="absolute inset-0 flex items-center justify-center transition-transform duration-300 translate-y-full group-hover:translate-y-0">
+              Get API Key
+            </span>
+            <span className="invisible px-2">Start for Free</span>
           </button>
           <button className="flex items-center gap-2 px-8 py-4 rounded-full font-semibold transition-all
             bg-transparent border border-black/10 text-[#111827] hover:bg-white/50
