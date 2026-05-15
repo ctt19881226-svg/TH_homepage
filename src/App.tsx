@@ -125,14 +125,14 @@ export default function App() {
            className="text-center w-full max-w-4xl"
         >
           <h1 className="text-5xl md:text-7xl lg:text-[5.5rem] font-bold tracking-tight mb-8">
-            <span className="text-[#111827] dark:text-[#F9FAFB]">Unified API.</span>
+            <span className="text-[#111827] dark:text-[#F9FAFB]">Trusted Access to</span>
             <br />
             <span className="relative inline-block pb-2">
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-orange-400 via-pink-500 to-purple-500 dark:from-zinc-300 dark:via-white dark:to-zinc-400 leading-normal relative z-10">
-                Honest. Reliable.
+                Frontier AI
               </span>
               <span className="absolute inset-0 bg-clip-text text-transparent bg-gradient-to-r from-transparent via-white to-transparent dark:blur-sm opacity-50 z-0 select-none hidden dark:block">
-                Honest. Reliable.
+                Frontier AI
               </span>
             </span>
           </h1>
