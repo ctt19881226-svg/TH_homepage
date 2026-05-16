@@ -1,6 +1,7 @@
 import { motion } from "motion/react";
 import { CheckCircle2, Gift, ShieldCheck, MessageSquare, Sun, Moon, ArrowRight, Target, Eye, Copy, Check, Terminal } from "lucide-react";
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 const CODE_SNIPPET = `import OpenAI from "openai";
 
@@ -86,6 +87,7 @@ export default function App() {
             <a href="#" className="hover:text-black dark:hover:text-white transition-colors">Chat</a>
             <a href="#" className="hover:text-black dark:hover:text-white transition-colors">Models</a>
             <a href="#" className="hover:text-black dark:hover:text-white transition-colors">Docs</a>
+            <Link to="/dashboard" className="hover:text-black dark:hover:text-white transition-colors">Dashboard</Link>
           </div>
         </div>
         <div className="flex items-center gap-4">
@@ -125,14 +127,14 @@ export default function App() {
            className="text-center w-full max-w-4xl"
         >
           <h1 className="text-5xl md:text-7xl lg:text-[5.5rem] font-bold tracking-tight mb-8">
-            <span className="text-[#111827] dark:text-[#F9FAFB]">Trusted Access to</span>
+            <span className="text-[#111827] dark:text-[#F9FAFB]">Transparent.</span>
             <br />
             <span className="relative inline-block pb-2">
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-orange-400 via-pink-500 to-purple-500 dark:from-zinc-300 dark:via-white dark:to-zinc-400 leading-normal relative z-10">
-                Frontier AI
+                Unified. Secure.
               </span>
               <span className="absolute inset-0 bg-clip-text text-transparent bg-gradient-to-r from-transparent via-white to-transparent dark:blur-sm opacity-50 z-0 select-none hidden dark:block">
-                Frontier AI
+                Unified. Secure.
               </span>
             </span>
           </h1>
@@ -184,7 +186,7 @@ export default function App() {
           transition={{ delay: 0.4 }}
           className="flex flex-wrap items-center justify-center gap-4 mb-20"
         >
-          <button className="group relative flex items-center justify-center px-8 py-4 rounded-full font-semibold transition-all overflow-hidden
+          <Link to="/dashboard" className="group relative flex items-center justify-center px-8 py-4 rounded-full font-semibold transition-all overflow-hidden
             bg-[#111827] text-white hover:bg-black hover:shadow-[0_8px_30px_rgb(0,0,0,0.12)]
             dark:bg-white dark:text-black dark:hover:bg-neutral-200 dark:hover:shadow-[0_0_20px_rgba(255,255,255,0.2)]">
             <span className="absolute inset-0 flex items-center justify-center transition-transform duration-300 group-hover:-translate-y-full">
@@ -194,7 +196,7 @@ export default function App() {
               Get API Key
             </span>
             <span className="invisible px-2">Start for Free</span>
-          </button>
+          </Link>
           <button className="flex items-center gap-2 px-8 py-4 rounded-full font-semibold transition-all
             bg-transparent border border-black/10 text-[#111827] hover:bg-white/50
             dark:bg-transparent dark:border-white/20 dark:text-white dark:hover:bg-white/10 mb-0">
@@ -409,7 +411,7 @@ export default function App() {
             <h4 className="font-semibold text-[#111827] dark:text-[#F9FAFB] mb-2">Account</h4>
             <a href="#" className="hover:text-[#111827] dark:hover:text-white transition-colors">Sign in</a>
             <a href="#" className="hover:text-[#111827] dark:hover:text-white transition-colors">Sign up</a>
-            <a href="#" className="hover:text-[#111827] dark:hover:text-white transition-colors">Dashboard</a>
+            <Link to="/dashboard" className="hover:text-[#111827] dark:hover:text-white transition-colors">Dashboard</Link>
           </div>
 
           <div className="flex flex-col gap-4">
